@@ -74,7 +74,7 @@
 				$(this).transition({scale : '1'});
 			});
 		};
-
+// return
 		return {
 			restrict: 'A',
 			link: linker,

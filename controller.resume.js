@@ -1,6 +1,6 @@
 (function () {
 	'use strict';
-
+// scope handlers
 	var _ = window._;
 	window.angular.module("resume").controller('resumeController', ['$scope', 'ResumeService', function($scope, ResumeService) {
 		function init() {

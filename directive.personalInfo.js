@@ -13,7 +13,7 @@
 							'<br>' +
 								'{{email}} &#8226; {{phoneNumber}}' +
 							'</div>';
-
+// return
 		return {
 			restrict: 'AE',
 			link : linker,
