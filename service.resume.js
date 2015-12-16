@@ -4,29 +4,29 @@
 	var _ = window._;
 	var myResume = {
 		//Enter your name here
-		name : 'Amir Yasin',
+		name : 'Suhayl Faris',
 
 		//Enter your address here
 		address : {
-			street1: '1069 Sussex Way',
+			street1: '3651 S. Mobile Way',
 			street2: '',
-			city: 'Round Rock',
-			state: 'TX',
-			zip: '78665'
+			city: 'Aurora',
+			state: 'CO',
+			zip: '80013'
 		},
 
-		phoneNumber: '512 522 2647',
+		phoneNumber: '720-999-3948',
 
-		email: 'ayasin@datatensor.com',
+		email: 'suhayltfaris@gmail.com',
 
-		github: 'github.com/ayasin',
+		github: 'https://github.com/SuhaylTFaris',
 
 		blog: null,
 
 		//Enter your objective here
-		objective : "<p>To utilize my 10+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
+		objective : "<p>To use what I have learned in my time in the Galvanize (GSchool) program by designing apps and websites to help people further their businesses and life." +
 					"to help companies solve difficult and interesting problems and stay on the cutting edge of technology innovation.</p>" +
-					'<strong class="text-muted">Active TS Clearance</strong>',
+					'<strong class="text-muted">MEAN Stack Developer</strong>',
 
 		//Enter your comma separated skills here.  Any skills you enter will appear at the
 		//front of the skills list.  Other skills from your tags and skillsUsed in projects
@@ -36,261 +36,31 @@
 			"HTML5/CSS",
 			"MongoDB",
 			"Asynchronous Development",
-			"Python"
+			"Ruby"
 		],
 
-		projectsHeader : '<h4>Consulting (DataTensor & Direct Contract) October 2003 to Present</h4>' +
+		projectsHeader : '<h4>Projects done during GSchool</h4>' +
 						 '<h5>Project History</h5>',
 
-		projectsFooter : '<strong class="text-muted">Non-DataTensor work can be discussed during interview.</strong>',
+		projectsFooter : '<strong class="text-muted">MEAN stack and vanilla JS/Jquery projects</strong>',
 
 		//List your projects below
 		projects : [
 			{
-				company : 'Partial Contract',
-				projectName : 'June Recruiting Platform',
-				dates: '3/15 - Present',
-				skillsUsed : [
-					'JavaScript',
-					'React',
-					'FRP',
-					'BaconJS',
-					'NodeJS',
-					'Python'
-				],
-				tags : [
-					'System Architecture',
-					'AJAX',
-					'Data Modeling'
-				],
-				highlights : [
-					'Wrote the front and backend of a candidate management system which helped recruiters find interested candidates',
-					'Wrote financial tracking in Node with a PostgreSQL backend',
-					'Helped with marketing and messaging',
-					'Performed various devops duties'
-				]
-			},
-			{
-				company : 'DataTensor - Contract',
-				projectName : 'Sapling Learning',
-				dates: '9/14 - 9/15',
-				skillsUsed : [
-					'JavaScript',
-					'React',
-					'FRP',
-					'BaconJS',
-					'NodeJS'
-				],
-				tags : [
-					'System Architecture',
-					'AJAX',
-					'Data Modeling'
-				],
-				highlights : [
-					'Lead team to redesign and rearchitect an existing flash based homework system into a single page HTML5/React.js application',
-					'System was redesigned into a functional reactive application using Bacon as the streams library',
-					'Created plugin system that allowed for easy future expantion into different subjects by adding new modules',
-					'Wrote mock server code to allow disconnected development of modules',
-					'Created a test harness to test components in isolation',
-					'Trained 3rd party developers on how to create modules for the system',
-					'The SPA was later embedded into various homework modules and e-books'
-				]
-			},
-			{
-				company : 'DataTensor - Product',
-				projectName : 'ShopTensor',
-				dates: '2/13 - 2/14',
+				company : 'GSchool',
+				projectName : 'Linguist - Language Alphabet Helper',
+				dates: '8/22/15 - Present',
 				skillsUsed : [
 					'JavaScript',
 					'AngularJS',
-					'NodeJS',
-					'MongoDB'
+					'MongoDB',
+					'NodeJS'
 				],
 				tags : [
-					'System Architecture',
-					'AJAX',
-					'Data Modeling'
+					''
 				],
 				highlights : [
-					'Architected and developed large portions of ShopTensor Machine Shop ERP software',
-					'Responsible for technology decisions',
-					'Responsible for code reviews and ensuring production stability',
-					'Entire system written in JavaScript with backend utilizing NodeJS and MongoDB',
-					'Collaborated on marketing website copy',
-					'Wrote marketing website code for <a href="http://shoptensor.com">ShopTensor</a>'
-				]
-			},
-			{
-				company : 'NeoGenis - DataTensor Contract',
-				projectName : 'NeoGenis Web/Backend Support',
-				dates: '2/14 - 6/14',
-				skillsUsed : [
-					'JavaScript',
-					'HTML5/CSS'
-				],
-				tags : [
-					'AJAX'
-				],
-				highlights : [
-					'Responsible for updating and maintaining NeoGenis web properties',
-					'Assist in automating a number of backend data collection processes'
-				]
-			},
-			{
-				company : 'Thermopylae Science And Technology - Direct Contract',
-				projectName : 'Core Services',
-				dates: '1/13 - 9/14',
-				skillsUsed : [
-					'Java',
-					'Android',
-					'Objective-C'
-				],
-				tags : [
-					'WebSockets',
-					'Low Level Sockets',
-					'System Architecture',
-					'Data Modeling',
-					'SQL'
-				],
-				highlights : [
-					'Responsible for architecture and implementation of core technology stack',
-					'Custom Message Queue solution to address needs of closed network, disconnected and mobile users',
-					'Agent Manager which acts as a host for business logic',
-					'Designed and developed complex event processor capable of processing millions of events a second',
-					'Common data abstraction service which allows developers to access data from anywhere without caring where or how it\'s stored',
-					'Created "Atlas", a Mac application to help developers develop on and integrate with the Core Services stack',
-					'Helped rewrite the entire backend of a TST GeoSpatial product (iSpatial) to utilize the Core Services stack'
-				]
-			},
-			{
-				company : 'Thermopylae Science And Technology - Direct Contract',
-				projectName : 'Ubiquity',
-				dates: '2/12 - 1/13',
-				skillsUsed : [
-					'Java',
-					'Android',
-					'Objective-C'
-				],
-				tags : [
-					'System Architecture',
-					'Low Level Sockets'
-				],
-				highlights : [
-					'Responsible for maintenance and development of iOS offering as well as Android offering',
-					'Significantly reduced battery utilization of application through improvements to radio usage',
-					'Created SDK on both Android and iOS for external developers to plug functionality into apps',
-					'Created local HTTP server to support a web API in disconnected situations'
-				]
-			},
-			{
-				company : 'Thermopylae Science And Technology - Direct Contract',
-				projectName : 'Windshear',
-				dates: '5/12 - 9/12',
-				skillsUsed : [
-					'Android'
-				],
-				tags : [
-					'Low Level Sockets'
-				],
-				highlights : [
-					'Helped integrate a library I wrote for Ubiquity to reduce battery usage on mobile application through better use of radio'
-				]
-			},
-			{
-				company : 'Thermopylae Science And Technology - Direct Contract',
-				projectName : 'ContinuityX',
-				dates: '10/12 - 12/12',
-				skillsUsed : [
-					'Objective-C',
-					'Java'
-				],
-				tags : [
-					'Low Level Sockets'
-				],
-				highlights : [
-					'Designed and implemented a storyboarding scheme for iPad that appeared to be a live app',
-					'Created backend services to feed simulated data to front end',
-					'Assisted client in using app to demonstrate capabilities at trade show'
-				]
-			},
-			{
-				company : 'Novus - DataTensor Contract',
-				projectName : 'Novus',
-				dates: '2/10 - 12/12',
-				skillsUsed : [
-					'Objective-C',
-					'Android',
-					'Java',
-					'HTML5/CSS',
-					'PHP'
-				],
-				tags : [
-					'SQL'
-				],
-				highlights : [
-					'Responsible for designing and developing a celebrity personality monitization platform',
-					'Created initial version of both iOS and Android apps for Novus',
-					'Created mobile application generator (based on original apps) for both iOS and Android, generator was used to create a number of production apps',
-					'Directed efforts of database team',
-					'Directed efforts of front end team and code reviewed pull requests into source control'
-				]
-			},
-			{
-				company : 'DataTensor - Product',
-				projectName : 'DiscoverMyVoice',
-				dates: '1/10 - Present',
-				skillsUsed : [
-					'Objective-C',
-					'Android',
-					'HTML5/CSS'
-				],
-				highlights : [
-					'Created an assistive communication app for severely disabled children for Android and iOS',
-					'Worked with special education teachers to optimize workflow for both kids and caregivers'
-				]
-			},
-			{
-				company : 'Various - DataTensor Contract',
-				projectName : 'Mobile Apps',
-				dates: '2/10-12/12',
-				skillsUsed : [
-					'Objective-C',
-					'Android',
-					'HTML5/CSS'
-				],
-				highlights : [
-					'<strong>DubMeNow</strong> Business card sharing app',
-					'<strong>EFAS</strong> Fire safety inspection report generator app',
-					'<strong>iNeedStuff</strong> Shopping list app with syncing across multiple users',
-					'<strong>MobileAlly</strong> Encrypted SIP communication client for Android',
-					'<strong>Several others under NDA</strong>'
-				]
-			},
-			{
-				company : 'Can discuss during interview',
-				projectName : 'Other Clients',
-				dates: '2/10-12/12',
-				skillsUsed : [
-					'Objective-C',
-					'Android',
-					'Java',
-					'HTML5/CSS'
-				],
-				tags : [
-					'C#',
-					'C/C++',
-					'.NET/IL'
-				],
-				highlights : [
-					'<strong>Schwab</strong> Member of core services team, trading platform team',
-					'<strong>Kershner Trading Group</strong> Algorithmic trading and high frequency trading platform team',
-					'<strong>YouNeedABudget.com</strong> Port of their C# application to Java',
-					'<strong>TotalChart</strong> Medical coding scrubber for PalmOS',
-					'<strong>AviSys</strong> Electronic warfare countermeasures system for wide body aircraft',
-					'<strong>IBM</strong> Member of E-Config Web Portal team',
-					'<strong>Buffalo Wireless</strong> Wireless LAN card driver for Windows',
-					'<strong>AdvonTech</strong> Survey tool on Windows CE/PocketPC',
-					'<strong>Toolbuilders Labs</strong> Created compiler for C to assist in static analysis of code for security vulnerabilities'
+					'Helps people learn the basics of currently 3 languages (Japanese, Portuguese and German.'
 				]
 			}
 		],
@@ -298,10 +68,10 @@
 		//List your education here
 		education : [
 			{
-				degree : 'BS in Computer Science',
-				school : "Oklahoma City University",
-				gradDate : 'December, 1997',
-				comments : '3.4 GPA'
+				degree : 'Full Stack Web Developer',
+				school : "Galvanize University",
+				gradDate : '2015',
+				comments : ''
 			}
 		]
 	};
